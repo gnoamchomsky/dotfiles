@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Custom Rofi Script for full menu
+
+# Launch Rofi
+rofi -no-lazy-grab -show drun \
+-display-drun "Applications :" -drun-display-format "{name}" \
+-hide-scrollbar true \
+-bw 0 \
+-lines 10 \
+-line-padding 15 \
+-padding 200 \
+-width 30 \
+-xoffset 10 -yoffset 40 \
+-location 1 \
+-fullscreen \
+-columns 5 \
+-show-icons -icon-theme "Papirus" \
+-theme "theme"
+-font "Inter 8"
+

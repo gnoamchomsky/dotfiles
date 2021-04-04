@@ -1,0 +1,16 @@
+#!/bin/bash
+# Rofi script to open menu
+
+rofi -no-lazy-grab -show drun \
+-display-drun "Applications :" -drun-display-format "{name}" \
+-hide-scrollbar true \
+-bw 0 \
+-lines 10 \
+-line-padding 10 \
+-padding 20 \
+-width 50 \
+-xoffset 27 -yoffset 60 \
+-location 1 \
+-columns 4 \
+-show-icons -icon-theme "Papirus" \
+-theme "theme" \
