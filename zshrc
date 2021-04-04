@@ -37,8 +37,8 @@ autoload -U +X compinit && compinit
 source <(helm completion zsh)
 source <(kubectl completion zsh)
 source <(kompose completion zsh)
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /home/nikola/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh                                                                                       
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/autojump/autojump.zsh
 
 #Azure CLI
