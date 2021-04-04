@@ -1,0 +1,6 @@
+ntfd &
+xcompmgr &
+sxhkd &
+variety &
+exec bspwm 2>~/bspwm.err
+
