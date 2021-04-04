@@ -92,13 +92,6 @@ export FZF_DEFAULT_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null ||
                         cat {} || tree -C {}) 2> /dev/null | head -200'"
 #complete -o zshdefault -o default -F _fzf_path_completion zathura
 
-##ssh-agent startup###
-if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-    ssh-agent -t 1h > "$XDG_RUNTIME_DIR/ssh-agent.env"
-fi
-if [[ ! "$SSH_AUTH_SOCK" ]]; then
-    source "$XDG_RUNTIME_DIR/ssh-agent.env" >/dev/null
-fi
 
 #aws-cli autocompletion
 autoload bashcompinit && bashcompinit
