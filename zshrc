@@ -39,8 +39,6 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/autojump/autojump.zsh
 
-#Azure CLI
-source /etc/bash_completion.d/azure-cli
 #ZSH Syntax highlighting styling
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#a3a3a3"
 
