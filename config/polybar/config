@@ -6,9 +6,9 @@
 
 [color]
 
-darkbg = #13242a
-bg = #263238
-fg = #e5d7c5
+darkbg = #282828
+bg = #928374
+fg = #ebdbb2
 
 acolor = #FFFFFF
 curgent = #EF5350
